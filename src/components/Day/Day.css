@@ -1,0 +1,19 @@
+.day {
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    color: darkgray;
+    width: 4em;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.day.active {
+    border: 2px solid darkblue;
+}
+.day.selectable {
+    cursor: pointer;
+    color: gray;
+    background-color: lightgrey;
+}
